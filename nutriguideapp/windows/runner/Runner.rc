@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "nutriguideapp" "\0"
+            VALUE "FileDescription", "nutriguide" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "nutriguideapp" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2025 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "nutriguideapp.exe" "\0"
-            VALUE "ProductName", "nutriguideapp" "\0"
+            VALUE "InternalName", "nutriguide" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
+            VALUE "OriginalFilename", "nutriguide.exe" "\0"
+            VALUE "ProductName", "nutriguide" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

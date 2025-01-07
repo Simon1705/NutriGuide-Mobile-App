@@ -1,8 +1,8 @@
-name: nutriguideapp
+name: nutriguide
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -30,29 +30,79 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  firebase_core: ^3.8.0
+  cloud_firestore: ^5.5.0
+  material_design_icons_flutter: ^6.0.7096
+  http: ^1.1.0
+  flutter_bloc: ^8.1.2
+  linear_progress_bar: ^1.1.2
+  numberpicker: ^2.1.2
+  image_picker: ^1.0.4
+  cloudinary_public: ^0.21.0
+  intl: ^0.19.0
+  shared_preferences: ^2.2.2
+  timeago: ^3.0.2
+  app_settings: ^5.1.1
+  firebase_messaging: ^15.1.6
+  flutter_local_notifications: ^18.0.1
+  permission_handler: ^10.2.0
+  flutter_timezone: ^4.0.0
+  rxdart: ^0.28.0
+  fl_chart: ^0.65.0
+  flutter_gemini: ^2.0.3
+  dash_chat_2: ^0.0.21
+  flutter_screenutil: ^5.9.3
+  shimmer: ^3.0.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  firebase_auth: ^5.3.3
+  timezone: ^0.10.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+ # android min sdk min:16, default 21
+
+
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^4.0.0
+  flutter_lints: ^5.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
 flutter:
+  assets:
+    - assets/images/landing_page.jpg
+    - assets/images/register_page.jpg
+    - assets/images/regist_page.jpg
+    - assets/images/account-already-registered.png
+    - assets/images/double-check-password-email.png
+    - assets/images/error-occur.png
+    - assets/images/register-success.png
+    - assets/images/account-not-registered.png
+    - assets/images/no-internet.png
+    - assets/images/no-activity.png
+    - assets/images/logo_NutriGuide.png
+    - assets/images/google_logo.png
 
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: assets/fonts/Pacifico-Regular.ttf
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.

@@ -1,6 +1,6 @@
 {
-    "name": "nutriguideapp",
-    "short_name": "nutriguideapp",
+    "name": "nutriguide",
+    "short_name": "nutriguide",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
